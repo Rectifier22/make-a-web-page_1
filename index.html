@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+
+
+    <title>Stage 1 - Project</title>
+    
+    
+    <link rel="stylesheet" href="css/normalize.css">
+
+    
+        <link rel="stylesheet" href="css/style.css">
+
+    
+    
+    
+  </head>
+
+  <body>
+
+    <!DOCTYPE HTML>
+<!--Code created 4/7/2015 by Tony Cornett - Updated 5/14/2015-->
+<html>
+
+<head>
+  <title>Tony's Notes</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+  <!--Lesson 1 The Basics of the Web-->
+  <div>
+    <h1>Concepts</h1>
+  </div>
+  <div class="lesson">
+    <h2>Lesson 1 - The Basics of the Web</h2>
+
+    <div class="subject">
+      <div class="subject-title">The Web - World Wide Web</div>
+      <div class="subject-text">
+        <br>Invented in the 1990&#39;s and currently consists of approximately 30 Billion pages.
+        <b>HTML</b> is the common language of the web. While many types of files such as Plain Text, HTML, Images, Videos, and Music, HTML is the main type of document found on the web. The web is comprised of documents linked together via <b>Hyper Links</b>.
+
+        <br>
+        <br>Components of the World Wide Web:
+        <ul>
+          <li>HTTP &#45; The main protocol of the web.</li>
+          <li>Servers &#45; Computers that host files that make up the web.</li>
+          <li>Internet &#45; The Worlds largest computer network.</li>
+          <li>Browser &#45; A program that runs on your computer to display files found on the web</li>
+        </ul>
+      </div>
+    </div>
+    <div class="subject">
+      <div class="subject-title">HTML - Hypertext Markup Language</div>
+      <div class="subject-text">
+        <b><em>HTML</em></b> is made up of:
+        <ul>
+          <li>Text Content</li>
+          <li>Markup &#45; What it looks like</li>
+          <li>References to (e.g. images and videos)</li>
+          <li>Links to other pages</li>
+        </ul>
+
+        Markup is achieved with the use of HTML "Tags."
+        <br>Tags are often comprised of a set of Opening &lt;X> and Closing tags &lt;/X>
+        <br>
+        <br><span class="note">NOTE:</span><em><b>Void</b> Tags do not have a Closing Tag.</em>
+      </div>
+    </div>
+
+    <div class="subject">
+      <div class="subject-title">Elements and Attributes</div>
+      <div class="subject-text">
+        <b>Element</b> - Everything within a set of opening and closing tags.
+        <br><b>Attribute</b> - Property of the HTML element.
+      </div>
+    </div>
+
+    <div class="subject">
+      <div class="subject-title">Inline / Block</div>
+      <div class="subject-text">
+        Examples of <span class="note">Inline</span> Tags
+        <ul>
+          <li>&lt;b> - <b>Bold</b> - makes the text bold</li>
+          <li>&lt;em> - <b>Emphasis</b> - presents the text in an italicized form</li>
+          <li>&lt;span> - <b>Span</b> - ??? I will learn what this does later</li>
+          <li>&lt;a href> - <b>Anchor Tag</b> - Used for making links</li>
+          <li>&lt;img> - <b>Image Tag</b> - Used to include images. Consists of a source location (src=) and alternate text (alt=)</li>
+          <li>&lt;br> - <b>Line Break</b> - Used set contents on the next line</li>
+        </ul>
+        Examples of <span class="note">Block</span> Tags
+
+        <ul>
+          <li>&lt;p> - <b>Paragraph</b> - This tag is used to set the contents on a new line but also creates an invisible box around the text that can have additional parameters such as Vertical and Horizontal</li>
+          <li>&lt;div> - <b>Div</b> - ??? I will learn what this does later</li>
+        </uL>
+
+        When learning to write code a great test browser has been provided by <a href="http://www.udacity.com/html_playground">Udacity.com</a>
+      </div>
+    </div>
+  </div>
+  <!--Lesson 2 Creating a Structured Document with HTML-->
+  <div class="lesson">
+    <h2>Lesson 2- Creating a Structured Document with HTML</h2>
+
+    <div class="subject">
+      <div class="subject-title">Structure of an HTML Document</div>
+      <div class="subject-text">
+        &lt;!DOCTYPE HTML> - Doctype
+        <br>&lt;html> - Opening html tag
+        <br>&lt;head> - Includes metadata i.e CSS
+        <br>&lt;title> - Title of the page that appears at the top of the browser window
+        <br>&lt;/head>
+        <br>&lt;body> - Content of the web page
+        <br>&lt;b> content &lt;/b>
+        <br>&lt;/body>
+        <br>&lt;/html> - Closing html tag
+        <div>
+          HTML documents are comprised of a Tree-Like Structure
+        </div>
+      </div>
+    </div>
+
+    <div class="subject">
+      <div class="subject-title">HTML and CSS are both <em>"Languages"</em></div>
+      <div class="subject-text">
+        <ul>
+          <li>HTML controls the <em><b>structure</b></em> of a web page</li>
+          <li>CSS controls the <em><b>style</b></em> of a web page (how it looks).</li>
+        </ul>
+        When programmers talk about the &quot; DOM &quot; (Document Object Model), they are talking about the tree-like structure of a page.
+        <div>
+          All elements are rectangular
+        </div>
+      </div>
+    </div>
+    <div class="subject">
+      <div class="subject-title">Boxify</div>
+      <div class="subject-text">
+        <b>Boxifying a Design</b> &#45; The process of visualizing all the elements of a web page as independent rectangles or <em><b>boxes</b></em>.
+
+        <p>When <em><b>Boxifying</b></em> a web page Boxes can also have boxes within boxes, within boxes, etc. This can also be referred to as <em>Nested</em> boxes</p>
+      </div>
+    </div>
+  </div>
+
+  <!--Lesson 3 Adding Style to Structure with CSS-->
+  <div class="lesson">
+    <h2>Lesson 3 - Adding Style to Structure with CSS</h2>
+
+    <div class="subject">
+      <div class="subject-title">CSS</div>
+      <div class="subject-text">
+        CSS is code written to control the "style" of HTML elements.
+        <p>
+          Cascading Style Sheets (CSS) is a set of rules to describe the formating of elements. When CSS is used, it allows a programmer to reduce code to describe how each element is displayed by referencing a specific style sheet to obtain the attribute for the
+          element.
+          <p>
+            The term <em>cascading</em> is important as CSS utilizes <em>Most Specific Rule Applies.</em> This method is also referred to as <em>inheritance.</em>
+            <p>One of the <span class="note">GREATEST</span> assets derrived from using CSS is the ability for the programmer to avoid repetition within the code!
+      </div>
+    </div>
+
+    <div class="subject">
+      <div class="subject-title">Inheritance</div>
+      <div class="subject-text">
+        Wikipedia describes <a href="http://en.wikipedia.org/wiki/Cascading_Style_Sheets#Inheritance">Inheritance</a> as <em>the mechanism by which properties are applied not only to a specified element, but also to its descendants.</em> This functionality
+        is made possible by the &quot;Tree-Like&quot; structure mentioned earlier. Each element will inherit specific rules from it&#39;s &quot;ancestor&quot; or element it has been &quot;nested&quot; within. Wikipedia goes on to say, &quot;descendant
+        elements inherit text-related properties, but box-related properties are not inherited.&quot;
+        <p>
+          According to wikipedia, examples of inherited properties are:
+          <ul>
+            <li>Color</li>
+            <li>Font</li>
+            <li>Letter-spacing</li>
+            <li>Line-height</li>
+            <li>List-style</li>
+            <li>Text-align</li>
+            <li>Text-indent</li>
+            <li>Text-transform</li>
+            <li>Visibility</li>
+            <li>White-space</li>
+            <li>Word-spacing</li>
+          </ul>
+          <p>
+            Examples of properties NOT inherited are:
+            <ul>
+              <li>Background</li>
+              <li>Border</li>
+              <li>Display</li>
+              <li>Float and Clear</li>
+              <li>Height and Width</li>
+              <li>Margin</li>
+              <li>Min- and Max-height and Width</li>
+              <li>Outline</li>
+              <li>Overflow</li>
+              <li>Padding</li>
+              <li>Position</li>
+              <li>Text-decoration</li>
+              <li>Vertical-align</li>
+              <li>Z-index</li>
+            </ul>
+
+            <p>
+              When using CSS a programmer will utilize selectors and define attributes. Selector - Defines the elements to apply the style
+              <p>
+                A programmer can assign a style by selecting the elements by tag or even by class.
+                <p>
+                  Style format is &quot;Attribute&quot; : &quot;Value&quot;
+                  <p>
+                    P {
+                    <br> Color:Red
+                    <br> }
+                    <p>
+                      IMPORTANT: A great link to CSS References is found at https://developer.mozilla.org/en-US/docs/Web/CSS/Reference
+                      <p>
+                        How do I include CSS Styling in my web page? here are three ways you can do this.
+                        <ul>
+                          <li><b>Method 1:</b> write CSS in the “&lt;head>” of your HTML Inside the &lt;head> element, add a &lt;style> element. Write your CSS in the &lt;style> element and then put the HTML for the rest of your page below.</li>
+
+                          <li><b>Method 2:</b> Link your HTML to a separate CSS file This adds another step, but it lets you stay more organized when working on larger projects. To do this: 1. Write all of your structural HTML in one file (let's call it main.html).
+                            2. In a separate file (let's call it main.css), put all of your CSS code. 3. Add a &lt;head> element to the top of your HTML. 4. Add a &lt;link> tag inside the &lt;head> element. Since &lt;link> is a "void tag" you don't need
+                            to add a closing &lt;/link>. 5. Add the following attributes to your &lt;link>: * rel="stylesheet" * type="text/css" * href="main.css"</li>
+
+                          <li><b>Method 3:</b> Write your style inline with your HTML This is generally a very bad idea because it leads to lots of repeated code. But you may see code that uses this method so it's good to be familiar with it.</li>
+                        </ul>
+      </div>
+    </div>
+
+    <div class="subject">
+      <div class="subject-title">Divs, Spans, Classes, Ids</div>
+      <div class="subject-text">
+        <ul>
+          <li>Use Divs to control layout. Div tags bump things to the next line.</li>
+          <li>Use Spans to control style without afecting the layout.</li>
+          <li>ID provides a method to uniquely identify an element. Only oone element in the page with the same ID.</li>
+          <li>Classes are used for many items on a page that wl be styled similarly.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="subject">
+      <div class="subject-title">Diagram of the Box</div>
+      <div class="subject-text">
+        HTML elements are boxes and each box has 4 components.
+        <br>- ->Margin &#45; Clears the area around the border and is transparent. &quot;Space between boxes&quot;
+        <br>--- ->Border &#45; Inherited from the Color property of the box
+        <br>----- ->Padding &#45; Clears the area arounf the content and is affected by the background color of the box
+        <br>-------- ->Content &#45; Image or text that appears on the website
+        <p>
+          There are two techniques you can use to help deal with sizing issues.
+          <br>1. Set sizes in terms of percentages rather than pixels.
+          <br>2. Set the box-sizing attribute to border-box for every element.
+          <p>
+            1. Divs are block elements (as opposed to inline), so by default they take up the entire width of a page.
+            <br>2. Adding the rule display: flex; to the appropriate CSS will override this behavior and let divs appear next to each other.
+      </div>
+    </div>
+
+    <div class="subject">
+      <div class="subject-title">Verifying HTML and CSS</div>
+      <div class="subject-text">
+        <br>To verify HTML: <a href="http://validator.w3.org/#validate_by_input">http://validator.w3.org/#validate_by_input</a>
+        <br>To verify CSS: <a href="http://jigsaw.w3.org/css-validator/#validate_by_input">http://jigsaw.w3.org/css-validator/#validate_by_input</a>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
+    
+    
+    
+    
+    
+  </body>
+</html>

@@ -1,0 +1,79 @@
+/* This is a CSS comment.*/
+/*
+Comments are only to help PEOPLE read a code file. The
+computer ignores them.
+*/
+/** {
+   outline: 1px solid red !important;
+}*/
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 20px 10px;
+  max-width: 2000px;
+  margin: 0 auto;
+  font-family: tahoma;
+}
+
+h1 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 42px
+}
+
+h2 {
+  text-align: left;
+  font-weight: bold;
+  font-size: 35px
+}
+
+h3 {
+  text-align: left;
+  font-weight: bold;
+  font-size: 30px
+}
+
+p {
+  margin: 15px
+}
+
+.note {
+	font-weight: bolder;
+	color: black;
+  text-decoration: underline
+}
+
+.lesson {
+  background-color: #060244;
+  border-radius: 20px;
+  color: white;
+  padding: 15px;
+  margin: 8px auto;
+}
+
+.subject {
+  background-color: #d3d3d3;
+  padding: 3px;
+  margin: 8px;
+  border-radius: 6px;
+  color: black;
+}
+
+.subject-title {
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+  margin: 8px;
+  color: #272730;
+}
+
+.subject-text {
+  font-weight: normal;
+  margin: 8px;
+}

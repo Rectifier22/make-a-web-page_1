@@ -1,0 +1,3 @@
+A Pen created at CodePen.io. You can find this one at http://codepen.io/rectifier/pen/RPWrLX.
+
+ Udacity Introduction to Programming Stage 1 - Work Session 1 & 2.  I have reviewed notes taken during Lessons 1, 2, and 3 and incorporated feedback received via Stage 0 submission.  I included the use of the List tag <li> and the Open Bracket Tag "&lt;".  Additionally, I was able to utilize the Paragraph tag appropriately to make "cleaner" code appearance. Finally, I have added <div> tags to add structured indentions.
